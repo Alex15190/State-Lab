@@ -11,10 +11,10 @@
 		85956723213818F30065ADF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956722213818F30065ADF2 /* ViewController.m */; };
 		85956726213818F30065ADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85956724213818F30065ADF2 /* Main.storyboard */; };
 		85956728213819150065ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85956727213819150065ADF2 /* Assets.xcassets */; };
-		8595672B213819150065ADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85956729213819150065ADF2 /* LaunchScreen.storyboard */; };
 		8595672E213819150065ADF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595672D213819150065ADF2 /* main.m */; };
 		85956738213819160065ADF2 /* State_LabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956737213819160065ADF2 /* State_LabTests.m */; };
 		85956743213819160065ADF2 /* State_LabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85956742213819160065ADF2 /* State_LabUITests.m */; };
+		8595675121382E1C0065ADF2 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 8595675021382E1B0065ADF2 /* smiley.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		85956722213818F30065ADF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85956725213818F30065ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85956727213819150065ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8595672A213819150065ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8595672C213819150065ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8595672D213819150065ADF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85956733213819160065ADF2 /* State LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "State LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		8595673E213819160065ADF2 /* State LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "State LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85956742213819160065ADF2 /* State_LabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State_LabUITests.m; sourceTree = "<group>"; };
 		85956744213819160065ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8595675021382E1B0065ADF2 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				85956722213818F30065ADF2 /* ViewController.m */,
 				85956724213818F30065ADF2 /* Main.storyboard */,
 				85956727213819150065ADF2 /* Assets.xcassets */,
-				85956729213819150065ADF2 /* LaunchScreen.storyboard */,
+				8595675021382E1B0065ADF2 /* smiley.png */,
 				8595672C213819150065ADF2 /* Info.plist */,
 				8595672D213819150065ADF2 /* main.m */,
 			);
@@ -235,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8595672B213819150065ADF2 /* LaunchScreen.storyboard in Resources */,
 				85956728213819150065ADF2 /* Assets.xcassets in Resources */,
+				8595675121382E1C0065ADF2 /* smiley.png in Resources */,
 				85956726213818F30065ADF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,14 +306,6 @@
 				85956725213818F30065ADF2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85956729213819150065ADF2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8595672A213819150065ADF2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
